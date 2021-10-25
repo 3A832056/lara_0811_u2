@@ -61,7 +61,7 @@
                                 <a href = "{{route('hello.index', ['name'=>'tom'])}}" class="underline">Hello2</a>
                                 <a href = "/hello/tom" class="underline">Hello3</a>
                             </div>
-                          
+
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
