@@ -57,7 +57,11 @@
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
                                 </div>
+                                <a href="{{ route('hello.index') }}" class="underline">Hello</a>
+                                <a href = "{{route('hello.index', ['name'=>'tom'])}}" class="underline">Hello2</a>
+                                <a href = "/hello/tom" class="underline">Hello3</a>
                             </div>
+                          
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
